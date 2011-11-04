@@ -1,0 +1,35 @@
+/* 
+ * styles for the page footer
+ */
+
+footer.footer {
+	background-color: #eeeeee;
+	margin-top: 15px;
+	padding: 30px 0px;
+	-webkit-box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
+	-moz-box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
+	text-shadow: 0 1px 0 white;
+}
+
+footer p {
+	color: #555555;
+}
+
+/*
+ * styles for page formatting
+ */
+
+body > .main {
+	margin-top: 60px;
+}
+
+.borderless {
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+}
+
+.well.highlightBox {
+	background-color: #5bc0de;
+	font-size: 1.2em;
+}
