@@ -33,3 +33,34 @@ body > .main {
 	background-color: #5bc0de;
 	font-size: 1.2em;
 }
+
+/*
+ * style for header
+ */
+
+.topbar div > ul, .nav {
+	float: right;
+	margin-right: 0;
+}
+
+.topbar div > ul > li, .nav > li {
+	margin-left: 40px;
+}
+
+.topbar div > ul a, .nav a {
+	padding: 0px;
+	margin: 10px 0px 8px;
+}
+
+.topbar div > ul .active > a, .nav .active > a {
+	background: none;
+	border-bottom: 2px solid #5BC0DE;
+}
+
+.topbar div > ul a:hover, .topbar div > ul a:active {
+	color: #5BC0DE;
+}
+
+.topbar div > ul .active a:hover, .topbar div > ul .active a:active {
+	color: #FFFFFF;
+}
