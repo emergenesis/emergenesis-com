@@ -29,10 +29,19 @@ body > .main {
 	-moz-box-shadow: none !important;
 }
 
-.well.highlightBox {
-	background-color: #5bc0de;
+.well.highlightBox1 {
+	background-color: #dddddd;
+}
+
+.well.highlightBox2 {
+	background-color: #dddddd;	
+}
+
+.highlightBox1, .highlightBox2 {
 	font-size: 1.2em;
 }
+
+
 
 /*
  * style for header
@@ -63,4 +72,24 @@ body > .main {
 
 .topbar div > ul .active a:hover, .topbar div > ul .active a:active {
 	color: #FFFFFF;
+}
+
+#slider h1, #slider p {
+	
+	color: #000000 !important;
+	font-family: 'Comfortaa', cursive;
+	font-weight: normal;
+}
+
+#slider {
+	background: #1bacff url(/images/slider-bg.png) no-repeat top left;
+}
+
+.btn.secondary {
+    background-color: #9a9a9a;
+    background-image: -moz-linear-gradient(center top , #22fa12, #1bc70e);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #000000;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
