@@ -79,7 +79,6 @@ body > .main {
 #slider h1, #slider p {
 
 	color: #000000 !important;
-	font-family: 'Comfortaa', cursive;
 	font-weight: normal;
 }
 
@@ -115,6 +114,10 @@ header.about {
 /*
  * Page Styles
  */
+
+body {
+    font-family: 'Convergence', sans-serif;
+}
 
 .submenu {
     list-style-type: none;
