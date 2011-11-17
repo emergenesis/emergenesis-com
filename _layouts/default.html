@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<meta charset="UTF-8" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
-	<title>{{ page.title }} | Emergenesis</title>
-	<!-- this is an html5 shim -->
-	<!--[if lt IE 9]>
-	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
-	<link rel="stylesheet" href="/stylesheets/main.css"/>
-	<link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>{{ page.title }} | Emergenesis</title>
+    <!-- this is an html5 shim -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stylesheets/main.css"/>
+    <link rel="shortcut icon" href="/favicon.ico" />
         <link href='http://fonts.googleapis.com/css?family=Convergence' rel='stylesheet' type='text/css'>
     </head>
     <body>
-	<div class="topbar">
-	    <div class="fill">
-		<div class="container">
-		    <a class="brand" href="/">emergenesis</a>
-		    <ul class="nav">
-			<li {% if page.section == "home" %} class="active" {% endif %}><a href="/">Home</a></li>
-			<li><a href="/projects">Projects</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li {% if page.section == "about" %} class="active" {% endif %}><a href="/about">About</a></li>
-			<li><a href="/contact">Contact</a></li>
-		    </ul>
-		</div>
-	    </div>
-	</div>
-		
-	<div class="container main">
-	    {{ content }}
-	</div>
-		
-	<footer class="footer">
-	    <div class="container">
-		<p class="pull-right">
-		    <a href="/">Powered by Emergenesis</a>
-		</p>
-		<p>Copyright place holder</p>
-	    </div>
-	</footer>
+    <div class="topbar">
+        <div class="fill">
+        <div class="container">
+            <a class="brand" href="/">emergenesis</a>
+            <ul class="nav">
+            <li {% if page.section == "home" %} class="active" {% endif %}><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li {% if page.section == "about" %} class="active" {% endif %}><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+        
+    <div class="container main">
+        {{ content }}
+    </div>
+        
+    <footer class="footer">
+        <div class="container">
+        <p class="pull-right">
+            <a href="/">Powered by Emergenesis</a>
+        </p>
+        <p>Copyright place holder</p>
+        </div>
+    </footer>
 
     </body>
 </html>
